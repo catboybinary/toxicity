@@ -1,0 +1,9 @@
+{
+  "yacl3.config.toxicity:config.category.main": "Server Configuration",
+  "yacl3.config.toxicity:config.category.client": "Client Configuration",
+  "yacl3.config.toxicity:config.flatDamage": "Flat Damage",
+  "yacl3.config.toxicity:config.flatArmorDamage": "Flat Armor Damage",
+  "yacl3.config.toxicity:config.damageIntervalInTicks": "Damage Interval (in ticks)",
+  "yacl3.config.toxicity:config.enableCustomRain": "Enable Custom Rain",
+  "yacl3.config.toxicity:config.rainColor": "Rain Color"
+}

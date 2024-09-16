@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_authors}"
+  ],
+  "license": "${mod_license}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "${mod_group}.fabric.${mod_class_name}Fabric"
+    ],
+    "client": [
+      "${mod_group}.fabric.client.${mod_class_name}FabricClient"
+    ],
+    "modmenu": [
+      "${mod_group}.fabric.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "${mod_id}-common.mixins.json",
+    "${mod_id}.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.20.1",
+    "yet_another_config_lib_v3": ">=3.5.0",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
